@@ -1,0 +1,7 @@
+# Codex 專案設定（在 Codex 信任此專案後生效）
+# 這是單檔靜態網頁遊戲，只需要在工作目錄內讀寫、不需要網路。
+approval_policy = "on-request"
+sandbox_mode = "workspace-write"
+
+[sandbox_workspace_write]
+network_access = false
